@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Gedaq.Common" Version="0.2.0" />
+		<PackageReference Include="MySqlConnector" Version="2.2.5" />
+	</ItemGroup>
+	<PropertyGroup>
+		<PackageId>Gedaq.MySqlConnector</PackageId>
+		<PackageVersion>1.0.0.0</PackageVersion>
+		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
+		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector</RepositoryUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Description>Attributes required for Gedaq ORM operation for MySqlConnector.</Description>
+		<PackageTags>orm, database, gedaq, attribute, ObjectRelationalMapping, sql, MySql</PackageTags>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
