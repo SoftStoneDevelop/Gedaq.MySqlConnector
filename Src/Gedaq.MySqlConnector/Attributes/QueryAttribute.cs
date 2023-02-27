@@ -1,4 +1,5 @@
 ﻿using Gedaq.Common.Enums;
+using Gedaq.MySqlConnector.Enums;
 using System;
 
 namespace Gedaq.MySqlConnector.Attributes
@@ -11,6 +12,7 @@ namespace Gedaq.MySqlConnector.Attributes
             string methodName,
             Type queryMapType = null,
             MethodType methodType = MethodType.Sync,
+            SourceType sourceType = SourceType.MySqlConnection,
             QueryType queryType = QueryType.Read,
             bool generate = true
             )

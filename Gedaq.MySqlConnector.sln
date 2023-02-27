@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gedaq.MySqlConnector", "Src\Gedaq.MySqlConnector\Gedaq.MySqlConnector.csproj", "{B3CD2896-5CCA-4C95-9056-820AEEFC4403}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Src\Benchmark\Benchmark.csproj", "{F0EA3D29-9DE1-463A-B3F1-2A37CC67EBC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B3CD2896-5CCA-4C95-9056-820AEEFC4403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3CD2896-5CCA-4C95-9056-820AEEFC4403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3CD2896-5CCA-4C95-9056-820AEEFC4403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EA3D29-9DE1-463A-B3F1-2A37CC67EBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EA3D29-9DE1-463A-B3F1-2A37CC67EBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EA3D29-9DE1-463A-B3F1-2A37CC67EBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EA3D29-9DE1-463A-B3F1-2A37CC67EBC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
