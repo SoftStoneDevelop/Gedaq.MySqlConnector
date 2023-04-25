@@ -8,7 +8,7 @@
 	</ItemGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.MySqlConnector</PackageId>
-		<PackageVersion>1.0.3.0</PackageVersion>
+		<PackageVersion>1.1.0.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
