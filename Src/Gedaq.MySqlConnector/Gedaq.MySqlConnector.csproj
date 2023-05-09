@@ -3,12 +3,12 @@
 		<TargetFramework>net6.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Gedaq.Common" Version="0.2.0" />
-		<PackageReference Include="MySqlConnector" Version="2.2.5" />
+		<PackageReference Include="Gedaq.Common" Version="0.3.2" />
+		<PackageReference Include="MySqlConnector" Version="2.2.6" />
 	</ItemGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.MySqlConnector</PackageId>
-		<PackageVersion>1.1.0.0</PackageVersion>
+		<PackageVersion>1.1.1.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

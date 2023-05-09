@@ -14,7 +14,8 @@ namespace Gedaq.MySqlConnector.Attributes
             MethodType methodType = MethodType.Sync,
             SourceType sourceType = SourceType.MySqlConnection,
             QueryType queryType = QueryType.Read,
-            bool generate = true
+            bool generate = true,
+            AccessModifier accessModifier = AccessModifier.AsContainingClass
             )
         {
         }
