@@ -54,8 +54,9 @@ WHERE p.id = @id
 ",
             "ReadInnerMap",
             typeof(Person)
-            )]
-        [Gedaq.MySqlConnector.Attributes.Parametr("ReadInnerMap", parametrType: typeof(int), parametrName: "id")]
+            ),
+            Gedaq.MySqlConnector.Attributes.Parametr(parametrType: typeof(int), parametrName: "id")
+            ]
         [Benchmark(Description = $"Gedaq.MySqlConnector")]
         public void MySqlConnector()
         {
@@ -82,8 +83,9 @@ WHERE p.id = @id
 ",
             "ReadInnerMap",
             typeof(Person)
-            )]
-        [Gedaq.DbConnection.Attributes.Parametr("ReadInnerMap", parametrType: typeof(int), parametrName:"id")]
+            ),
+            Gedaq.DbConnection.Attributes.Parametr(parametrType: typeof(int), parametrName: "id")
+            ]
         [Benchmark(Baseline = true, Description = "Gedaq.DbConnection")]
         public void DbConnection()
         {
