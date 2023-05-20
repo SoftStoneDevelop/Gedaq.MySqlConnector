@@ -5,9 +5,9 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
-		<PackageReference Include="Gedaq" Version="1.0.0" />
-		<PackageReference Include="Gedaq.DbConnection" Version="1.0.0" />
-		<PackageReference Include="Gedaq.MySqlConnector" Version="1.0.3" />
+		<PackageReference Include="Gedaq" Version="1.4.0" />
+		<PackageReference Include="Gedaq.DbConnection" Version="1.2.2.1" />
+		<PackageReference Include="Gedaq.MySqlConnector" Version="1.1.1" />
 		<PackageReference Include="System.Linq.Async" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 	</ItemGroup>

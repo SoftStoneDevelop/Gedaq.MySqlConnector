@@ -8,7 +8,6 @@ namespace Gedaq.MySqlConnector.Attributes
     public sealed class ParametrAttribute : Attribute
     {
         public ParametrAttribute(
-            string methodName,
             Type parametrType,
             string parametrName,
             MySqlDbType dbType = MySqlDbType.VarChar,
