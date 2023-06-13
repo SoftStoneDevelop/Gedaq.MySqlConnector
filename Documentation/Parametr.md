@@ -18,7 +18,4 @@ public ParametrAttribute(
   )
 
 ```
-Unique parametrs:<br>
-`position`: Parameter position for unnamed parameters<br>
-
 Rest parametrs and usage same as [Parametr](https://github.com/SoftStoneDevelop/Gedaq.DbConnection/blob/main/Documentation/Parametr.md).
