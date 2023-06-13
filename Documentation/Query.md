@@ -7,13 +7,15 @@ public QueryAttribute(
   string methodName,
   Type queryMapType = null,
   MethodType methodType = MethodType.Sync,
-  SourceType sourceType = SourceType.Connection,
+  SourceType sourceType = SourceType.MySqlConnection,
   QueryType queryType = QueryType.Read,
-  bool generate = true
+  bool generate = true,
+  AccessModifier accessModifier = AccessModifier.AsContainingClass,
+  AsyncResult asyncResultType = AsyncResult.ValueTask
   )
 
 ```
 Unique parametrs:<br>
-`sourceType`: source type(connection/NpgsqlDataSource)<br>
+`sourceType`: source type(`MySqlConnection`/`MySqlDataSource`)<br>
 
 Rest parametrs and usage same as [Query](https://github.com/SoftStoneDevelop/Gedaq.DbConnection/blob/main/Documentation/Query.md).
