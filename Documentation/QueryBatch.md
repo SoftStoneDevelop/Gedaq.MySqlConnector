@@ -5,7 +5,9 @@ Constructors:
 public QueryBatchAttribute(
       string batchName,
       QueryType queryType,
-      MethodType methodType
+      MethodType methodType,
+      AccessModifier accessModifier = AccessModifier.AsContainingClass,
+      AsyncResult asyncResultType = AsyncResult.ValueTask
       )
 
 ```
