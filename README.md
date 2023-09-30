@@ -16,3 +16,5 @@
 </h3>
 
 Attributes required for [Gedaq ORM](https://github.com/SoftStoneDevelop/Gedaq) operation for [MySqlConnector](https://github.com/mysql-net/MySqlConnector).
+
+Something is still not clear and [Documentation](https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector/tree/main/Documentation/Readme.md) does not help? [Feel free to ask a question on StackOverflow](https://stackoverflow.com/questions/ask?tags=gedaq,mysqlconnector,c%23)
