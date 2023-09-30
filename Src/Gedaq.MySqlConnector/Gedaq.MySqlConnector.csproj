@@ -4,11 +4,11 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Gedaq.Common" Version="0.3.4" />
-		<PackageReference Include="MySqlConnector" Version="2.2.6" />
+		<PackageReference Include="MySqlConnector" Version="2.2.7" />
 	</ItemGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.MySqlConnector</PackageId>
-		<PackageVersion>1.1.4.0</PackageVersion>
+		<PackageVersion>1.1.5.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

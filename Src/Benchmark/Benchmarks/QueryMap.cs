@@ -38,7 +38,7 @@ namespace MySqlConnector.Benchmarks
         }
 
         [Gedaq.MySqlConnector.Attributes.Query(
-            @"
+            query: @"
 SELECT 
     p.id,
     p.firstname,
@@ -52,8 +52,8 @@ FROM person p
 LEFT JOIN identification i ON i.id = p.identification_id
 WHERE p.id = @id
 ",
-            "ReadInnerMap",
-            typeof(Person)
+            methodName: "ReadInnerMap",
+            queryMapType: typeof(Person)
             ),
             Gedaq.MySqlConnector.Attributes.Parametr(parametrType: typeof(int), parametrName: "id")
             ]
@@ -67,7 +67,7 @@ WHERE p.id = @id
         }
 
         [Gedaq.DbConnection.Attributes.Query(
-            @"
+            query: @"
 SELECT 
     p.id,
     p.firstname,
@@ -81,8 +81,8 @@ FROM person p
 LEFT JOIN identification i ON i.id = p.identification_id
 WHERE p.id = @id
 ",
-            "ReadInnerMap",
-            typeof(Person)
+            methodName: "ReadInnerMap",
+            queryMapType: typeof(Person)
             ),
             Gedaq.DbConnection.Attributes.Parametr(parametrType: typeof(int), parametrName: "id")
             ]
