@@ -4,7 +4,7 @@
 
 <h3 align="center">
 
-  [![Nuget](https://img.shields.io/nuget/v/Gedaq.Npgsql?logo=Gedaq.MySqlConnector)](https://www.nuget.org/packages/Gedaq.MySqlConnector/)
+  [![Nuget](https://img.shields.io/nuget/v/Gedaq.MySqlConnector?logo=Gedaq.MySqlConnector)](https://www.nuget.org/packages/Gedaq.MySqlConnector/)
   [![Downloads](https://img.shields.io/nuget/dt/Gedaq.MySqlConnector.svg)](https://www.nuget.org/packages/Gedaq.MySqlConnector/)
   [![Stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq.MySqlConnector?color=brightgreen)](https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector/stargazers)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
