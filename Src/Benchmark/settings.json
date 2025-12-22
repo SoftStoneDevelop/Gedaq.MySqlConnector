@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "SqlConnection": "Server=127.0.0.1;User ID=root;Password=password;Database=gedaq"
-  }
-}
