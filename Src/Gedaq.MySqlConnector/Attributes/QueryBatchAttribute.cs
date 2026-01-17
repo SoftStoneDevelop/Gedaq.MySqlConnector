@@ -13,8 +13,7 @@ namespace Gedaq.MySqlConnector.Attributes
             AccessModifier accessModifier = AccessModifier.AsContainingClass,
             AsyncResult asyncResultType = AsyncResult.ValueTask,
             Type asPartInterface = null,
-            ReturnType returnType = ReturnType.Enumerable
-            )
+            ReturnType returnType = ReturnType.List)
         {
         }
     }

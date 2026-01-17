@@ -8,8 +8,8 @@ namespace Gedaq.MySqlConnector.Attributes
     public sealed class QueryAttribute : Attribute
     {
         public QueryAttribute(
-            string query,
             string methodName,
+            string query = null,
             Type queryMapType = null,
             MethodType methodType = MethodType.Sync,
             SourceType sourceType = SourceType.MySqlConnection,
@@ -18,8 +18,7 @@ namespace Gedaq.MySqlConnector.Attributes
             AccessModifier accessModifier = AccessModifier.AsContainingClass,
             AsyncResult asyncResultType = AsyncResult.ValueTask,
             Type asPartInterface = null,
-            ReturnType returnType = ReturnType.Enumerable
-            )
+            ReturnType returnType = ReturnType.List)
         {
         }
     }
