@@ -3,11 +3,9 @@
 namespace Gedaq.MySqlConnector.Attributes
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method, AllowMultiple = true)]
-    public sealed class BatchPartAttribute : Attribute
+    public sealed class DynamicParametrAttribute : Attribute
     {
-        public BatchPartAttribute(
-            string methodName,
-            int position)
+        public DynamicParametrAttribute(bool isPositionParametrs = false)
         {
         }
     }
