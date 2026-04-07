@@ -10,7 +10,8 @@ namespace Gedaq.MySqlConnector.Attributes
         public QueryAttribute(
             string methodName,
             string query = null,
-            Type queryMapType = null,
+            Type[] queryMapTypes = null,
+            string[] overrideAliasPrefixs = null,
             MethodType methodType = MethodType.Sync,
             SourceType sourceType = SourceType.MySqlConnection,
             QueryType queryType = QueryType.Read,
