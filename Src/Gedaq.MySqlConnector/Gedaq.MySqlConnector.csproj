@@ -1,14 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net9.0;net10.0</TargetFrameworks>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Gedaq.Common" Version="9.1.0" />
+		<PackageReference Include="Gedaq.Common" Version="10.0.0" />
 		<PackageReference Include="MySqlConnector" Version="2.5.0" />
 	</ItemGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.MySqlConnector</PackageId>
-		<PackageVersion>9.1.0.0-beta</PackageVersion>
+		<PackageVersion>10.0.0.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.MySqlConnector</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
